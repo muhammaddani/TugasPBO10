@@ -12,7 +12,7 @@ public class App {
         System.out.println("Total bayar member 3 : " + member3.hitungTotalBayar(10000000));
 
         //polimorfisme run time/dinamis terjadi saat subclass melakukan override atas method dari superclass, saya beri tanda dengan @override
-        //pada member2 method hitungTotalBayar() dipanggil pada objek Member, tetapi hasil kalkulasi bergantung pada objek sebenarnya yang dibuat pada saat runtime, yaitu MemberPlatinum
+        //pada member2, method hitungTotalBayar() dipanggil pada objek Member, tetapi hasil kalkulasi bergantung pada objek sebenarnya yang dibuat pada saat runtime, yaitu MemberPlatinum
     }   
     
 }
